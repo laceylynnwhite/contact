@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
 
+    <title>My Project Site</title>
+
+    <meta charset="utf-8">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+  </head>
+
+  <body>
+    <form name="firstform" method="POST" action="">
+      <div class="name">
+        <label for="name" class="label_input_wrap">Name:
+        </label>
+        <input type="text" name="name" id="name" placeholder="ex. Jane Doe"/>
+      </div>
+
+        <div class="email">
+          <label for="email" class="label_input_wrap">Email:</label>
+          <input type="email" name="email" id="email" placeholder="ex. janedoe@gmail.com" />
+        </div>
+
+        <div class="message">
+          <label for="message" class="label_input_wrap">Message: </label>
+          <textarea name="message" id="message" cols="48" rows="7" placeholder="Let's Talk! Shoot me a message with any questions or suggestions for content!"></textarea>
+    </form>
   </body>
 </html>
