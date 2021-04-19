@@ -23,7 +23,10 @@
 
   header nav a:hover {
     color: rgb(255, 204, 204);
-    border-radius: 30px;
+  }
+
+  header nav a:active {
+    color: #9f9696;
   }
 
   footer {
